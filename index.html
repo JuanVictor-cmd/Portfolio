@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/section-icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/f998e5393a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    
+    <title>Portfólio</title>
+</head>
+<body>
+<!--Header-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="cor">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/juan.svg" alt="logo do desenvolvedor escrito: JuanVictor" draggable="false">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projeto">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Main-->
+      <section class="jumbotron corprincipal">
+        <div class="container" id="home">
+          <img class="background" src="./assets/Fundo.png" alt="Background animado de um computador e fundo roxo">
+          <h1 class="jumbotron-heading">Juan Victor</h1>
+          <h2 class="lead white">Front-End Developer</h2>
+          <br>
+        </div>
+      </section>
+<!--Habilidades-->
+        <h3 id="habilidades">Habilidades</h3>
+        <div id="skills" class="row corprincipal">
+          <div class="col-lg-4">
+            <img src="./assets/icon-html-hover.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="heading-skills" style="color: rgb(254, 126, 7);">HTML</h2>
+            <p class="p-skills">HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Hoje essa linguagem deve ser utilizada unicamente para estruturar o conteúdo das páginas. Ou seja, não cabe a ela definir características visuais ou comportamentos, pois isso deve ser feito usando CSS e JavaScript.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="./assets/icon-css-hover.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="heading-skills" style="color: rgb(23, 108, 255);">CSS</h2>
+            <p class="p-skills">CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML. O CSS tem a tarefa de separar o conteúdo do site de sua apresentação visual, alterando elementos como cor do texto, fonte e espaçamento entre blocos, assim como todo o aspecto estético de uma página.</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./assets/icon-js-hover.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="heading-skills" style="color: yellow;">JavaScript</h2>
+            <p class="p-skills">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web. É atualmente a principal linguagem para programação client-side em navegadores web. </p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+<!--Projetos-->
+      <h3 id="projeto">Projetos</h3>
+      <div class="album py-5 corprincipal">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="./assets/netflix.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Neste projeto foi realizado o clone da página inicial da Netflix usando apenas HTML e CSS.</p>
+                  <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://netflixclone-juanvictor-cmd.netlify.app" target="_blank">
+                        <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                      </a>
+                      <a href="https://github.com/JuanVictor-cmd/Netflix-Project" target="_blank">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="./assets/site-em-construcao.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Em construção...</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Código</button>
+                      <a href="https://github.com/JuanVictor-cmd" target="_blank">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Github</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="./assets/site-em-construcao.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Em construção...</p>
+                  <ul>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">Código</button>
+                      <a href="https://github.com/JuanVictor-cmd" target="_blank">
+                        <button type="button" class="btn btn-sm btn-outline-primary">Github</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Contato-->
+<div class="container-color" >
+  <div class=" text-center ">
+      <h1 id="contato">Contato</h1>
+  </div>
+<div class="row ">
+<div class="col-lg-7 mx-auto">
+  <div id="form" class="card mt-2 mx-auto p-4 bg-light">
+      <div class="card-body bg-light">
+ 
+      <div class = "container-form">
+        <form action="https://mailthis.to/juanvictoralmeida.contato@gmail.com" method="POST" id="contact-form" role="form">
+      <div class="controls">
+
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_name">Nome</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Digite seu nome" required="required" data-error="Nome é obrigatório">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_email">E-mail</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Digite seu e-mail" required="required" data-error="E-mail inválido">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="form_message">Mensagem</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Escreva sua mensagem" rows="4" required="required" data-error="Por favor, deixe sua mensagem"></textarea
+                          >
+                      </div>
+                  </div>
+              <div class="col-md-12">
+                  <br>
+                  <input type="submit" id="btn-hover" class="btn btn-success btn-send  pt-2 btn-block
+                      " value="Enviar" >             
+          </div>   
+          </div>
+  </div>
+   </form>
+  </div>
+      </div>
+</div>
+  <!-- /.8 -->
+</div>
+<!-- /.row-->
+</div>
+</div>
+<footer id="footer" class="bg-light text-center text-lg-start" style="background-color: #252525 !important;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="background-color: #252525; color: white;">
+        <img src="./assets/juan.svg" alt="Logo Juan">
+        <br><br>
+        <p style="font-family: Inconsolata;">
+          If you liked my work<br> and you need me,<br> I'm ready to talk to you.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="background-color: #252525; color: white;">
+        <h5 class="text-uppercase" style="color: #8C52FF">Contato</h5>
+        <div class="icones">
+          <a class="link-icon" href="#">Linkedin <i class="fab fa-linkedin"></i></a>
+          <a class="link-icon" href="#">Github <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #252525; color: white;">
+    ©Juan Victor
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>

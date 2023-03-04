@@ -1,0 +1,478 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #252525;
+}
+
+/* Nav */
+
+.navbar-brand img{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.navbar-nav{
+    font-size: 22px;
+    font-family: Hammersmith One;
+    display: flex;
+    margin-left: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #8C52FF;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.nav-item{
+    padding: 0 0.4rem;
+}
+
+.container{
+    padding-top: 5rem;
+    width: auto;
+}
+
+/*Cores*/
+.corprincipal{
+    background-color: #252525;
+}
+#cor{
+    background-color: #252525;
+}
+
+
+/*Subtitulos*/
+ #projeto{
+    background-color: #252525;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 5%;
+    margin-bottom: 0 !important;
+    text-align: center;
+    justify-content: center;
+    color: #8C52FF!important;
+}
+
+#habilidades{
+    background-color: #252525;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 10%;
+    margin-bottom: 0 !important;
+    text-align: center;
+    justify-content: center;
+    color: #8C52FF!important;
+}
+
+/*imagem Home*/
+.background{
+    margin-top: 130px;
+    height: 50%;
+    width: auto;
+    max-width: 40%;
+    border-radius: 80px;
+    margin-left: 55%;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite, fadeinblock 3s 0.3s both;
+}
+
+/*Texto Home*/
+.jumbotron{
+    margin-top: 7rem;
+    padding-bottom: 2.5rem;
+}
+
+.jumbotron-heading{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 200px;
+    font-family: "Hammersmith One";
+    text-align: top left;
+    font-size: 70px;
+    color: #8C52FF;
+    padding: 0;
+    text-shadow: 5px 5px 7px black;
+}
+
+.lead{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 200px;
+    font-family: "Hammersmith One";
+    font-size: 100px;
+    font-weight: none;
+    padding: none;
+    margin: none;
+    width: 16rem;
+    text-align: left;
+    color: white;
+    text-shadow: 5px 5px 7px black;
+    overflow: hidden; 
+    border-right: .15em solid; 
+    white-space: nowrap; 
+    margin: none; 
+    letter-spacing: .14em; 
+     animation: 
+    typing 1.3s steps(40, end),
+    blink-caret .80s step-end infinite;
+}
+
+/*Habilidades*/
+.row{
+   margin: 0 !important;
+   padding: 0;
+}
+
+#habilidades{
+    padding-bottom: 5rem;
+}
+
+#skills{
+    padding-top: -60rem;
+}
+
+.heading-skills, .p-skills{
+    margin-top: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+/*Projetos*/
+
+#projetos{
+    padding-bottom: 22rem;
+}
+
+/*Contato*/
+
+#contato{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.container-color{
+    background-color: #252525;
+}
+
+.text-center{
+    color: #8C52FF;
+    background-color: #252525;
+    
+}
+
+label {
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 50%;
+}
+
+#btn-hover{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    background-color: #8C52FF;
+    border: rgba(81, 0, 209, 1) solid 1px;
+}
+
+#btn-hover:hover{
+    background-color: #8C52FF;
+    box-shadow: 0 0 5px #ae00ff, 0 0 10px #001eff, 0 0 30px #ae00ff;
+    transition-delay: 0.03s;
+    border: rgba(81, 0, 209, 1) solid 1px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+    margin-top: 5px;
+    margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#form{
+    padding: 0;
+    width: 45rem;
+    border-radius: 1rem;
+}
+
+#form_email{
+    width: 35rem;
+}
+
+#form_name{
+    width: 35rem;
+}
+
+#form_message{
+    width: 35rem;
+    height: 20rem;
+}
+
+/*footer*/
+
+#footer{
+    padding-top: 13rem;
+}
+
+.icones{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20rem;
+    margin-top: 2rem;
+}
+
+.link-icon{
+    text-decoration: none;
+    font-family: Inconsolata;
+    color: #8C52FF;
+}
+
+/*Animações */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 20% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #8C52FF; }
+  }
+
+@keyframes fadeinblock{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*Responsivo*/
+
+@media (max-width: 767px){
+
+    .jumbotron-heading{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        bottom: 100px;
+        font-family: "Hammersmith One";
+        text-align: top left;
+        font-size: 34px;
+        color: #8C52FF;
+        padding: 0;
+        text-shadow: 5px 5px 7px black;
+    }
+    
+    .lead{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        bottom: 100px;
+        font-family: "Hammersmith One";
+        font-size: 44px;
+        font-weight: none;
+        padding: none;
+        margin: none;
+        width: 16rem;
+        text-align: left;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+        overflow: hidden; 
+        border-right: .15em solid; 
+        white-space: nowrap; 
+        margin: none; 
+        letter-spacing: .15em; 
+        animation: 
+        typing 1s steps(40, end),
+        blink-caret .80s step-end infinite;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #8C52FF; }
+      }
+}
+
+@media (max-width: 569px){
+    .background{
+        margin-top: 130px;
+        height: 100%;
+        width: auto;
+        max-width: 100%;
+        border-radius: 20px;
+        margin: 0 auto;
+        transform: translateY(0px);
+        animation: float 5s ease-in-out infinite, fadeinblock 3s 0.3s both;
+    }
+    .jumbotron-heading{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        bottom: 1px;
+        font-family: "Hammersmith One";
+        text-align: top left;
+        font-size: 34px;
+        color: #8C52FF;
+        padding: 0;
+        text-shadow: 5px 5px 7px black;
+    }
+    
+    .lead{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        bottom: 1px;
+        font-family: "Hammersmith One";
+        font-size: 44px;
+        font-weight: none;
+        padding: none;
+        margin: none;
+        width: 16rem;
+        text-align: left;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+    }
+}
+
+@media (max-width: 730px) {
+    #form{
+        width: auto;
+    }
+    
+#form_email{
+    width: auto;
+    min-width: 100%;
+}
+
+#form_name{
+    width: auto;
+    min-width: 100%;
+}
+
+#form_message{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.icones{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20rem;
+    margin-top: 2rem;
+}
+
+.link-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+    text-decoration: none;
+    font-family: Inconsolata;
+    color: #8C52FF;
+}
+
+i{
+    margin: 5px;
+}
+}
+@media (max-width: 530px){
+
+    .icones{
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+.link-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    text-decoration: none;
+    font-family: Inconsolata;
+    color: #8C52FF;
+}
+
+}
+
+@media (max-width: 370px){
+
+    .navbar-brand img{
+        width: 80%;
+        height: auto;
+    }
+
+    .navbar-toggler{
+        align-items: flex-end;
+        display: inline-block;
+        position: relative;
+        margin-left: 15rem !important;
+        bottom: 2.3rem;
+        margin-bottom: -2rem;
+        
+    }
+}
