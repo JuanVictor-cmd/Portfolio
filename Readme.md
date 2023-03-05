@@ -26,7 +26,7 @@ Computador Desktop comum
 
 ## 🛠️ Construído com
 
-HTML E CSS Puro
+HTML, CSS e Bootstrap5
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de Marcação
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/css) - Linguagem de Estilização
