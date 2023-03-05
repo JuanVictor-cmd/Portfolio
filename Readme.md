@@ -30,7 +30,7 @@ HTML, CSS e Bootstrap5
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de Marcação
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/css) - Linguagem de Estilização
-- [Bootstrap](https://developer.mozilla.org/pt-BR/docs/Web/Bootstrap) - Framework Web
+- [Bootstrap](https://getbootstrap.com) - Framework Web
 
 ## ✒️ Autores
 
