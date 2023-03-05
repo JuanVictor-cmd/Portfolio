@@ -17,6 +17,10 @@ Computador Desktop comum
 
 ```
 
+<h2>Clique Aqui ⬇</h2> 
+Projeto Netflix em tempo real:
+https://netflixclone-juanvictor-cmd.netlify.app
+
 ## 📦 Implantação
 
 ```
