@@ -14,7 +14,7 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
 Computador Desktop comum
-Ps: (Esse projeto ainda não está responsivo, recomenda-se vizualisá-lo pelo PC até que esse update aconteça.)
+
 ```
 
 ## 📦 Implantação
