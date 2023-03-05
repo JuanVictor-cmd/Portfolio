@@ -304,7 +304,19 @@ h1 {
 
 /*Responsivo*/
 
+@media (max-width: 987px){
+    .background{
+        position: relative;
+        margin-left: 28rem;
+    }
+}
+
 @media (max-width: 767px){
+
+    .background{
+        position: relative;
+        margin-left: 20rem;
+    }
 
     .jumbotron-heading{
         display: flex;
@@ -355,6 +367,21 @@ h1 {
 }
 
 @media (max-width: 569px){
+
+    .background{
+        position: relative;
+        bottom: 3.3rem;
+    }
+
+    .lead{
+        position: relative;
+        bottom: 10rem;
+    }
+
+    .jumbotron-heading{
+        position: relative;
+        bottom: 10rem;
+    }
     .background{
         margin-top: 130px;
         height: 100%;
@@ -437,7 +464,17 @@ i{
     margin: 5px;
 }
 }
-@media (max-width: 530px){
+@media (max-width: 569px){
+
+    .lead{
+        position: relative;
+        bottom: 2rem;
+    }
+
+    .jumbotron-heading{
+        position: relative;
+        bottom: 2rem;
+    }
 
     .icones{
         font-size: 25px;
@@ -474,5 +511,12 @@ i{
         bottom: 2.3rem;
         margin-bottom: -2rem;
         
+    }
+}
+
+@media (max-width: 569px){
+    .background{
+        position: relative;
+        bottom: 4rem;
     }
 }
