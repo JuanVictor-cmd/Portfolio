@@ -1,0 +1,23 @@
+
+/*Subtitulos*/
+#projeto{
+    background-color: #252525;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 5%;
+    margin-bottom: 0 !important;
+    text-align: center;
+    justify-content: center;
+    color: #8C52FF!important;
+}
+
+#habilidades{
+    background-color: #252525;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 10%;
+    margin-bottom: 0 !important;
+    text-align: center;
+    justify-content: center;
+    color: #8C52FF!important;
+}

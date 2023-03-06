@@ -1,0 +1,20 @@
+
+/*Habilidades*/
+.row{
+    margin: 0 !important;
+    padding: 0;
+ }
+ 
+ #habilidades{
+     padding-bottom: 5rem;
+ }
+ 
+ #skills{
+     padding-top: -60rem;
+ }
+ 
+ .heading-skills, .p-skills{
+     margin-top: 2rem;
+     color: white;
+     font-size: 20px;
+ }
