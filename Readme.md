@@ -42,10 +42,9 @@ HTML, CSS e Bootstrap5
 
 ## 🎁 Expressões de gratidão
 
-Esse foi um projeto bem desafiador, ainda mais como um primeiro grande projeto prático. Nesse processo criativo,
-pude aprender ainda mais sobre as principais bases do Front-End (HTML e CSS), meu próximo passo é estudar e aprender
-JavaScript para melhorar ainda mais meu repertório tecnológico e estou muito ansioso para isso :)
-
+Esse foi o projeto mais demorado que fiz. Nesse projeto pude aprender uma nova tecnologia, o Bootstrap.
+foi desafiador pegar esse framework mas depois que aprendi, ficou muito mais fácil desenvolver o portfólio.
+Meu próximo passo é continuar estudando JavaScript e encher esse portfólio com bons projetos pessoais :) 
 ---
 
 ⌨️ com ❤️ por [Juan-Victor-cmd](https://github.com/JuanVictor-cmd) 😊
