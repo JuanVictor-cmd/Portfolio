@@ -2,5 +2,9 @@
 /*Projetos*/
 
 #projetos{
-    padding-bottom: 22rem;
+    padding-bottom: 10rem;
+}
+
+h3 #projetos{
+    padding-top: 1rem;
 }
